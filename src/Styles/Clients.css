@@ -1,0 +1,143 @@
+.Clients{
+    font-family: 'Montserrat',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./bg-for-parallax.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Clients .Clients-header{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    letter-spacing: 7px;
+    font-size: 3rem;
+}
+.Clients .Clients-listgroup{
+    margin-bottom: 2rem;
+    letter-spacing: 3px;
+}
+.Clients .Clients-svg{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+.Clients .Clients-listgroup-item{
+    width: 60vw;
+}
+@media screen and (max-width:1242px) {
+    .Clients .Clients-listgroup-item{
+        width: 70vw;
+    }
+}
+@media screen and (max-width:1194px) {
+    .Clients .Clients-listgroup-item{
+        width: 75vw;
+    }
+}
+@media screen and (max-width:1194px) {
+    .Clients .Clients-listgroup-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.Clients .Clients-listgroup-item:hover{
+    transition: all .3s;
+    background-color: rgba(0,0,0,.8);
+    cursor: pointer;
+    color: rgba(255, 255, 255, .8);
+}
+.Clients .Clients-listgroup-item:hover .Clients-svg{
+    filter: invert(1)
+}
+.Clients .Clients-list{
+    margin-bottom: 1.7rem;
+}
+.Clients .Clients-list-ul{
+    list-style: none;
+    font-size: 1.5rem;
+    width: 100%;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:1234px) {
+    .Clients .Clients-list-ul{
+        font-size: 1.2rem;
+    }
+}
+.Clients .Clients-list-li{
+    transition: all .2s;
+    flex: 0 50%;
+    text-align: center;
+    padding: .8rem;
+    background: -webkit-linear-gradient(#eee, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Clients .Clients-list-li:hover{
+    cursor: pointer;
+    letter-spacing: 9px;
+}
+.Clients .Clients-list-li a{
+    background: -webkit-linear-gradient(#eee, #000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width:1004px) {
+    .Clients .Clients-listgroup-item{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width:990px) {
+    .Clients .Clients-listgroup-item{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:970px) {
+    .Clients .Clients-listgroup-item{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:970px) {
+    .Clients .Clients-header{
+        font-size: 2rem;
+    }
+    .Clients .Clients-list-ul{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:780px) {
+    .Clients .Clients-listgroup-item{
+        text-align: center;
+    }
+}
+@media screen and (max-width:700px) {
+    .Clients .Clients-list{
+        width: 95vw;
+    }
+    .Clients .Clients-list-ul{
+        font-size: 1rem;
+    }
+    .Clients .Clients-list-li:hover{
+        letter-spacing: 5px;
+    }
+}
+@media screen and (max-width:690px) {
+    .Clients .Clients-list-li:hover{
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width:520px) {
+    .Clients .Clients-list-li{
+        flex: 0 100%;
+    }
+}

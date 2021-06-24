@@ -1,0 +1,130 @@
+.hrparlour{
+    font-size: 1.3rem;
+}
+.Card{
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Card .Card-desc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+}
+.Card .Card-desc-header{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    letter-spacing: 7px;
+    font-size: 3rem;
+}
+.Card .Card-desc-info{
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+}
+.Card .actualCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+@media screen and (max-width:1234px) {
+    .Card .actualCard{
+        margin: 2rem;
+    }
+}
+.actualCard .actualCard-card{
+    margin: 1rem;
+    border: 2px solid rgba(0, 0, 0,0.4);
+    border-radius: 2rem;
+    width: 100%;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width:1234px) {
+    .Card .actualCard-card{
+        width: 70%;
+        padding: 2rem;
+    }
+}
+.actualCard .actualCard-card:hover{
+    transition: all .3s;
+    background-color: rgba(0,0,0,.8);
+    cursor: pointer;
+}
+.actualCard .actualCard-card:hover .svg-icn{
+    filter: invert(1);
+}
+.actualCard .actualCard-card:hover .card-title{
+    color: #ffffff;
+}
+.actualCard .actualCard-card:hover .card-desc{
+    color: #ffffff;
+}
+.actualCard .actualCard-card .card-logo{
+    margin-bottom: 2rem;
+}
+.actualCard .actualCard-card .card-title{
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    word-spacing: 9px;
+    letter-spacing: 4px;
+}
+.actualCard .actualCard-card .card-desc{
+    text-transform: capitalize;
+    line-height: 2rem;
+}
+@media screen and (max-width:1234px) {
+    .Card .actualCard-card .card-title{
+        font-size: 1.5rem;
+        word-spacing: 5px;
+    }
+    .actualCard .actualCard-card .card-desc{
+        font-size: 1rem;    
+        line-height: 1.7rem;
+    }
+}
+@media screen and (max-width:970px) {
+    .Card .Card-desc-header{
+        margin-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+    .Card .Card-desc-info{
+        font-size: 0.8rem;
+        margin-bottom: 1.1rem;
+    }
+    .Card .actualCard-card{
+        width: 90%;
+        padding: 1rem;
+    }
+    .actualCard .actualCard-card .card-desc{
+        font-size: .8rem;    
+    }
+}
+@media screen and (max-width:620px) {
+    .Card .Card-desc{
+        margin: 0 30px;
+    }
+}
+
+.icon {
+    height: 4rem;
+    float:left;
+    margin-left:1.5rem
+}

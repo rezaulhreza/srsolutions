@@ -1,0 +1,102 @@
+.navbar{
+    font-family: 'Montserrat',sans-serif;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(240,240,240,0.4);
+    -webkit-backdrop-filter: saturate(1.8) blur(10px) !important;
+    backdrop-filter: saturate(1.8) blur(10px) !important;
+    display: flex;
+    flex-direction: row;        
+    justify-content: space-around;   
+    align-items: center;
+    /* padding: 0.5rem; */
+    /* height: 10vh; */
+    text-align: center;
+}
+.navbar .navbar-toggle{
+    display: none;
+}
+.navbar-logo img{
+    height: 100px;
+}
+.navbar-list ul{
+    list-style: none;
+    transform: translateY(25%);
+}
+
+.navbar-list li{
+    display: inline-block;
+    margin-right: 1.7em;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: #212529;
+}
+.navbar-list li > .active {
+    background-color: rgba(211,211,211,0.8);
+}
+.navbar-list li:hover{
+ cursor: pointer;
+}
+.navbar-list a{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    color: inherit;
+}
+.navbar-list a:hover{
+    background-color: rgba(211,211,211,0.8);
+}
+@media screen and (max-width:700px) {
+    .navbar{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:500px) {
+    .navbar{
+        flex-direction: row;
+    }
+    .navbar .navbar-list{
+        display: none;
+    }
+    .navbar>div{
+        flex: 0 50%;
+    }
+    .navbar .navbar-toggle{
+        display: inline-block;
+    }
+    .responsive .navbar-list{
+        display: inline-block;
+    }
+    .responsive .navbar-list ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        margin-top: -3rem;
+    }
+    .responsive .navbar-list li{
+        width: 70vw;
+        margin-right: 0;
+        padding: 1rem;
+    }
+    .responsive .navbar-list li:hover{
+        cursor: initial;
+    }
+    .responsive .navbar-list li a:hover{
+        cursor: pointer;
+    }
+    .responsive .navbar-list li:last-child{
+        margin-bottom: 1rem;
+    }
+    .navbar-toggle-svg{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: 10px;
+    }
+}
