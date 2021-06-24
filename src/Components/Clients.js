@@ -9,14 +9,15 @@ class Clients extends Component {
                 <h1 className="Clients-header">OUR CLIENTS</h1>
                 <div className='Clients-list'>
                     <ul className='Clients-list-ul'>
-                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>G4S</a></li>
-                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>G4S</a></li>
-                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>G4S</a></li>
-                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>G4S</a></li>  
-                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>G4S</a></li>
-                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>G4S</a></li>
-
-                    
+                        <li className='Clients-list-li'><a href='https://www.kent.ac.uk/' target='_blank' rel='noopener noreferrer'>University of Kent</a></li>
+                        <li className='Clients-list-li'><a href='https://www.zeoslondon.co.uk/' target='_blank' rel='noopener noreferrer'>Zeo's</a></li>
+                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>The Chaucer Centre</a></li>
+                        <li className='Clients-list-li'><a href='https://www.savills.co.uk/' target='_blank' rel='noopener noreferrer'>Savills</a></li>
+                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>E1 studio</a></li>
+                        <li className='Clients-list-li'><a href='https://goo.gl/maps/WBvjg1WNJvKhvPEy9' target='_blank' rel='noopener noreferrer'>Goswell Road Data Centre</a></li>
+                       
+                        <li className='Clients-list-li'><a href='https://www.vinciconstruction.co.uk/' target='_blank' rel='noopener noreferrer'>Vinci Construction UK</a></li>
+                        <li className='Clients-list-li'><a href='#' target='_blank' rel='noopener noreferrer'>Etc</a></li>
                     </ul>
                 </div>
                 {/* <ListGroup className="Clients-listgroup">

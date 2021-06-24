@@ -41,12 +41,13 @@ class Card extends Component {
                         <li>FRONT OF HOUSE RECEPTION</li>
                         <li>EVENT SECURITY</li>
                         <li>FIRE MARSHAL</li>
+                        <li>CCTV Monitoring</li>
                     </p>
                 </div>
                 <div className="actualCard">
                     <div className="actualCard-card">
                         <div className="card-logo">
-                            <img className="svg-icn" style={{height: '5rem', width: '5rem'}} alt="Fastest Growing Recruitment" src="assets/svg/histogram.svg" />
+                            <img className="svg-icn" style={{height: '5rem', width: '5rem'}} alt="Fastest Growing Recruitment" src="assets/svg/events.svg" />
                         </div>
                         <h1 className="card-title"><strong>Event Security</strong> Services</h1>
                         <p className="card-desc">At SR SOLUTIONS, we understand that our team of professionals are the first point of contact for many people at events. That's why,we always work hard to create a friendly environment and welcoming atmosphere for your customers or clients. We also aim to collaborate with the organisers of each event to ensure we create something special that people will remember.
@@ -57,7 +58,7 @@ Our vast experience means we are able to provide services to many of the UK’s 
                     </div>
                     <div className="actualCard-card">
                         <div className="card-logo">
-                            <img className="svg-icn" style={{height: '5rem', width: '5rem'}} alt="Fastest Growing Recruitment" src="assets/svg/user.svg" />
+                            <img className="svg-icn" style={{height: '5rem', width: '5rem'}} alt="Fastest Growing Recruitment" src="assets/svg/cctv.svg" />
                         </div>
                         <h1 className="card-title">Corporates and Industrial</h1>
                         <p className="card-desc">Both corporates and industrials can come in many different forms. They are usually divided by the differing regulatory environments and cultures they operate in. Therefore, in the dynamic, turbulent environment that corporates and industrials operate in, delivering an effective FM solution can be problematic.
@@ -68,9 +69,9 @@ We understand that each business is different which is why we can design a solut
                     </div>
                     <div className="actualCard-card">
                         <div className="card-logo">
-                            <img className="svg-icn" style={{height: '5rem', width: '5rem'}} alt="Fastest Growing Recruitment" src="assets/svg/hr.svg" />
+                            <img className="svg-icn" style={{height: '5rem', width: '5rem'}} alt="Fastest Growing Recruitment" src="assets/svg/knights.svg" />
                         </div>
-                        <h1 className="card-title">Leisure, Tourism & Hotel</h1>
+                        <h1 className="card-title">Leisure & Tourism</h1>
                         <p className="card-desc">Leisure and tourism is very important to the British economy. London is said to be one of the most visited cities in the world, with many of its events attracting numbers in the millions.
 
 Our professional team has experience with many events. Recently, we have been a proud participant of managing security services for 'Hotel Quarantine' introduced by the UK Government. Our team ensures that the clients are happy with their needs and protection. We are also able to provide services for one off events as well as individual security solutions.
